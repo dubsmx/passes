@@ -1,0 +1,6 @@
+# Configuración de Jekyll para tipos MIME personalizados
+# Esto es crucial para que los archivos .pkpass se sirvan correctamente.
+static_files:
+  - .pkpass
+mime_map:
+  .pkpass: application/vnd.apple.pkpass
